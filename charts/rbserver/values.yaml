@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 172.30.148.121:5000/thanusoft/rbserver
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 service:
   name: rbserver
